@@ -12,8 +12,8 @@ const Resume = () => {
       {/* Personal Info */}
       <div className="mb-6">
         <h2 className="text-2xl font-semibold">👤 Personal Information</h2>
-        <p><strong>Name:</strong> Hassan Mohamed</p>
-        <p><strong>Email:</strong> yourname@example.com</p>
+        <p><strong>Name:</strong> Hassan Abdi Muhumed</p>
+        <p><strong>Email:</strong> hassan2030abdi@gmail.com</p>
         <p><strong>Phone:</strong> +254 797393708</p>
         <p><strong>Location:</strong> Kenya (Open to relocation & remote)</p>
       </div>
