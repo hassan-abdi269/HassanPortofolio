@@ -167,46 +167,7 @@ const Home = () => {
                 </div>
             </main>
 
-            {/* Footer */}
-            <footer className="bg-gray-900 text-gray-200 py-6 mt-10">
-                <div className="container mx-auto grid md:grid-cols-3 gap-6">
-                    {/* Quick Links */}
-                    <div>
-                        <h3 className="font-semibold mb-2">Quick Links</h3>
-                        <ul>
-                            <li><a href="/" className="hover:underline">Home</a></li>
-                            <li><a href="Guide/Resources" className="hover:underline">Services</a></li>
-                            <li><a href="Website/Projects" className="hover:underline">Portfolio</a></li>
-                            <li><a href="Help/Contact" className="hover:underline">Contact</a></li>
-                        </ul>
-                    </div>
 
-                    {/* Legal */}
-                    <div>
-                        <h3 className="font-semibold mb-2">Legal</h3>
-                        <ul>
-                            <li><a href="Business/Technical" className="hover:underline">Privacy Policy</a></li>
-                            <li><a href="/Community" className="hover:underline">Terms of Service</a></li>
-                        </ul>
-                    </div>
-
-                    {/* Connect */}
-                    <div>
-                        <h3 className="font-semibold mb-2">Connect</h3>
-                        <div className="flex space-x-4">
-                            <a href="https://www.facebook.com/profile.php?id=100091809318541"><i className="fab fa-facebook-f" /></a>
-                            <a href="https://x.com/HassanA99720"><i className="fab fa-twitter" /></a>
-                            <a href="https://www.linkedin.com/in/hassan-abdi-333020356/"><i className="fab fa-linkedin-in" /></a>
-                            <a href="sms:+254797393708?body=Hello%20Hassan,%20I%20would%20like%20to%20inquire%20about%20your%20services">
-                                <i className="fas fa-sms" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className="text-center mt-6 text-sm">
-                    &copy; {new Date().getFullYear()} Hassan Abdi. All rights reserved.
-                </div>
-            </footer>
         </div>
     );
 };
